@@ -4,6 +4,7 @@ Sorting algorithm is an algorithm that puts elements of a list in a certain orde
 Following are some sorting algorithms:
 ### 1. Bubble Sort
 It is the oldest sorting algorithm with the simplest sorting method. Sorting is done by comparing each item in a list in pairs, exchanging items if necessary, and repeating them to the end of the list sequentially, so that no more items can be exchanged.
+![GitHub Logo](https://github.com/abdanzamzam/Sorting-Algorithm-with-JavaScript-Programming/blob/main/bubbleSort.gif)
 ```js
 let data = [6,5,3,1,8,7,2,4,10,1,6]
 let dummy = 0

@@ -1,2 +1,2 @@
-# Sorting Algorithm with Javascript Programming
+# Sorting Algorithm with JavaScript Programming
 sorting algorithm with javascript programming

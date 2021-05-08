@@ -30,3 +30,25 @@ console.log(bubbleSort(data));
 ```
 ### 2. Insertion Sort
 The insertion sort algorithm basically sorts the data that will be sorted into two parts, the unordered and the sorted ones. The first element is taken from the unsorted portion of the array and then placed in its position in another part of the sorted array. This step is carried out repeatedly until there are no more elements left in the array that have not been sorted.
+```js
+let data = [6,5,3,1,8,7,2,4,12,8,3]
+let dummy = 0
+
+function insertionSort(data) {
+    for (let i = 1; i < data.length; i++) {
+        for (let j = i; j > 0; j--) {
+            if (data[j] < data[j-1]) {
+                dummy = data[j]
+                data[j] = data[j-1]
+                data[j-1] = dummy
+            }
+        }
+    }
+    return data
+}
+
+console.log(insertionSort(data))
+
+// Output
+// [1,2,3,3,4,5,6,7,8,8,12]
+```

@@ -1,7 +1,8 @@
 let data = [6,5,3,1,8,7,2,4,10,1,6]
-let dummy = 0
 
 function bubbleSort(data) {
+    let dummy = 0
+    
     for (let i = 0; i < data.length; i++) {
         for (let j = data.length - 1; j > i; j--) {
             if (data[j] < data[j-1]) {

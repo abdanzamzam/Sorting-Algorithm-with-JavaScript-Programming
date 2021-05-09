@@ -11,6 +11,7 @@ let data = [6,5,3,1,8,7,2,4,10,1,6]
 
 function bubbleSort(data) {
     let dummy = 0
+    
     for (let i = 0; i < data.length; i++) {
         for (let j = data.length - 1; j > i; j--) {
             if (data[j] < data[j-1]) {
@@ -57,6 +58,8 @@ console.log(insertionSort(data))
 ```
 ### 3. Selection Sort
 The main idea of the selection sort algorithm is to select the element with the lowest value and replace the selected element with the ith element. The value of i goes from 1 to n, where n is the total number of elements minus 1.
+
+![GitHub Logo](https://github.com/abdanzamzam/Sorting-Algorithm-with-JavaScript-Programming/blob/main/selectionSort.gif)
 ```js
 let data = [6,5,3,1,8,7,2,4,9,5,4]
 

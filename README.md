@@ -54,3 +54,5 @@ console.log(insertionSort(data))
 // Output
 // [1,2,3,3,4,5,6,7,8,8,12]
 ```
+### 3. Selection Sort
+The main idea of the selection sort algorithm is to select the element with the lowest value and replace the selected element with the ith element. The value of i goes from 1 to n, where n is the total number of elements minus 1.
